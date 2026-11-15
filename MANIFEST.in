@@ -1,0 +1,7 @@
+include *.md
+include COPYING
+include voluptuous/tests/*.py
+include voluptuous/tests/*.md
+include pyproject.toml
+include tox.ini
+recursive-include voluptuous/tests/fixtures *.mo *.po
